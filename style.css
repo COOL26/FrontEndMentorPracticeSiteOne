@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.sub-container {
+  text-align: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.sub-container #yourResult {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.sub-container .circle {
+  border-radius: 50%;
+  padding: 30px 40px;
+  display: inline-block;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  max-width: 500px;
+}
+
+.sub-container div#message {
+  padding-top: 22px;
+  padding-bottom: 32px;
+  max-width: 275px;
+  margin: 0 auto;
+}
+
+.sub-container .circle#num {
+  font-size: 24px;
+}
+
+#summary {
+  font-size: 20px;
+  margin-left: 45px;
+  padding: 22px 0;
+  text-align: left;
+}
+
+.stats {
+  max-width: 80%;
+}
+
+.stats li {
+  list-style: none;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+  /* border: 2px solid red; */
+  padding: 15px 15px;
+  border-radius: 9px;
+}
+
+.svgSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svgSection p {
+  padding-left: 10px;
+}
+
+#stat1 {
+  background-color: hsl(0, 100%, 89%);
+}
+
+#stat2 {
+  background-color: hsl(39, 66%, 89%);
+}
+
+#stat3 {
+  background-color: hsl(167, 13%, 66%);
+}
+
+#stat4 {
+  background-color: hsl(240, 4%, 75%);
+}
+
+a {
+  display: block;
+  margin-top: 22px;
+  padding: 15px;
+  max-width: 80%;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 25px;
+}
